@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập nhiệt độ</title>
+</head>
+<style>
+
+  .maudo {
+    color: red;
+  }
+  .mauxanh{
+    color: blue;
+  }
+  .giuaText {
+    text-align: center;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .marginTo {
+    border-spacing: 10px;
+  }
+  .boTron{
+    border-radius: 10px;
+  }
+  .background {
+    background-color: aquamarine;
+  }
+</style>
+<body>
+<script src="BT-NHIET-DO.js">
+
+</script>
+<table class="marginTo background">
+  <tr>
+    <th class="giuaText" colspan="3">Phần mềm chuyển đổi nhiệt độ</th>
+  </tr>
+  <tr>
+    <td>
+      <p class="maudo giuaText">Nhập &#176C</p>
+      <input style="width: 70px" type="number" id="oC" value="">
+    </td>
+    <td>
+      <button class="boTron" onclick="chuyendoi()"><=></button>
+    </td>
+    <td>
+      <p class="mauxanh giuaText">Nhập &#176F</p>
+      <input style="width: 70px" type="number" id="oF">
+    </td>
+  </tr>
+</table>
+</body>
+</html>

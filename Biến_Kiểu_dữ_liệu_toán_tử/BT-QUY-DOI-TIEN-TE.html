@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập quy đổi tiền tệ</title>
+  <style>
+    table {
+      margin-left: auto;
+      margin-right: auto;
+      border-spacing: 50px;
+    }
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+<script src="BT-QUY-DOI-TIEN-TE.js"></script>
+<table>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>
+      <img src="th%20(1).jpg">
+    </td>
+    <td></td>
+    <td>
+      <img src="th.jpg">
+    </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
+      <p>Amount</p>
+      <input style="font-size: 15px" id="T" type="number" value="">
+    </td>
+    <td></td>
+    <td>
+      <p>From Curecy</p>
+      <select id="F" value="">
+        <option value="VietNam">Việt Nam</option>
+        <option value="USA">USA</option>
+      </select>
+    </td>
+    <td></td>
+    <td>
+      <p>To Curecy</p>
+      <select id="To" value="">
+        <option value="USA">USA</option>
+        <option value="VietNam">Việt Nam</option>
+      </select>
+    </td>
+    <td></td>
+    <td>
+      <p></p>
+      <button onclick="quyDoi()">Quy đổi</button>
+    </td>
+  </tr>
+
+</table>
+
+<p style="text-align: center; color: blue;" id="Quydoi"></p>
+</body>
+</html>
